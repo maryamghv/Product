@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ir.store.product",
+      "nativeLanguage": "fa"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "microservice",
+    "baseName": "StoreMicroservice",
+    "packageName": "ir.store.product",
+    "packageFolder": "ir/store/product",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTY0M2ZjYTM5YmFjZWUzYzVlZWUxNWMxODM1NWU2Yzg5ODRiNzM3YWE1YTVkYmVhMzcwNTQ5MDFhYjFjZjUzODI0NWQ1YTM0NTdiNTdkYmE4ODQ4MWJhYTFmYTc0NGI5Y2M1MDJlYTg3ZWRiMTM5NTIxMjgyZDQ3NTE4YjE5NzE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1609930435748,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fa",
+    "languages": ["fa", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1610517033000
+  }
+}

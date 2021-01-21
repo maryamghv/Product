@@ -1,0 +1,60 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "StoreMicroservice",
+  "relationships": [
+    {
+      "relationshipName": "attribute",
+      "otherEntityName": "attribute",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "product"
+    },
+    {
+      "relationshipName": "image",
+      "otherEntityName": "image",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "product"
+    },
+    {
+      "relationshipName": "category",
+      "otherEntityName": "category",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "product"
+    },
+    {
+      "relationshipName": "brand",
+      "otherEntityName": "brand",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "product"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "productName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20210113054350",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "product",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "infinite-scroll",
+  "microserviceName": "RadarStoreProductsMicroservice"
+}
